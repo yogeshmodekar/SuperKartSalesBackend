@@ -1,0 +1,30 @@
+
+# ============================================================
+# SuperKart Sales Prediction API - Python Dependencies
+# ============================================================
+
+# Data manipulation and numerical computation
+pandas==2.2.2
+numpy==2.0.2
+
+# Machine Learning libraries
+scikit-learn==1.6.1
+xgboost==2.1.4
+
+# Data visualization (used during analysis)
+seaborn==0.13.2
+
+# Model serialization and deserialization
+joblib==1.4.2
+
+# Flask framework for creating REST API
+flask==2.2.2
+
+# Flask dependency for handling HTTP requests and responses
+Werkzeug==2.2.2
+
+# Production WSGI server for deploying Flask applications
+gunicorn==20.1.0
+
+# Library for making HTTP/API requests
+requests==2.32.3
